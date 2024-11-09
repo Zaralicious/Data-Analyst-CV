@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #e4e5e5;
     line-height: 1.6;
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 .section {
-    background: white;
+    background: rgb(196, 194, 194);
     padding: 2rem;
     margin: 1rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -98,10 +98,11 @@ h2 {
 .skill-card, .project-card {
     background: #f9f9f9;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 .skill-card img, .project-card img {
@@ -118,6 +119,7 @@ h2 {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 footer {
     text-align: center;
